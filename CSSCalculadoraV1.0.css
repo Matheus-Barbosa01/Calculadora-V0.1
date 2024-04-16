@@ -48,7 +48,7 @@ h1{
     border-radius: 30px;
     font-size: 15px;
     background-color:rgb(32, 222, 11);
-
+    font-weight: bold;
     
 }
 #somar1{
@@ -58,12 +58,17 @@ h1{
     width: 100%;
 }
 body{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     /*background-color: rgb(113, 8, 8);*/
-    background-image: url(images.jpg);
+    background-image: url(imagem01.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
    
 }
 #result{
